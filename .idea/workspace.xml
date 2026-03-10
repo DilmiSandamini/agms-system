@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f96cd30b-5a49-4ec3-b97f-71fa3e031522" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain-services/automation-service/src/main/java/com/ijse/automationservice/entity/ActionLog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +153,7 @@
       <option name="presentableId" value="Default" />
       <updated>1773171050392</updated>
       <workItem from="1773171051504" duration="10814000" />
-      <workItem from="1773182321898" duration="1361000" />
+      <workItem from="1773182321898" duration="1670000" />
     </task>
     <servers />
   </component>
