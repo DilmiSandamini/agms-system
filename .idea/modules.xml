@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/agms-system.iml" filepath="$PROJECT_DIR$/agms-system.iml" />
-      <module fileurl="file://$PROJECT_DIR$/infrastructure/config-server/config-server/config-server.iml" filepath="$PROJECT_DIR$/infrastructure/config-server/config-server/config-server.iml" />
     </modules>
   </component>
 </project>
