@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+
 @RestController
 @RequestMapping("/api/zones")
 public class ZoneController {
@@ -13,7 +14,7 @@ public class ZoneController {
     @Autowired
     private ZoneService zoneService;
 
-    // POST /api/zones: Create zone + register device [cite: 127]
+    // POST /api/zones: Create zone + register device
     @PostMapping
     public ResponseEntity<?> createZone(
             @RequestHeader("Authorization") String token,
@@ -28,7 +29,7 @@ public class ZoneController {
         }
     }
 
-    // GET /api/zones/{id}: Fetch specific zone details [cite: 128]
+    // GET /api/zones/{id}: Fetch specific zone details
     @GetMapping("/{id}")
     public ResponseEntity<?> getZone(@PathVariable String id) {
         return zoneService.getZoneById(id)
@@ -36,7 +37,7 @@ public class ZoneController {
                 .orElse(ResponseEntity.notFound().build());
     }
 
-    // PUT /api/zones/{id}: Update thresholds [cite: 129]
+    // PUT /api/zones/{id}: Update thresholds
     @PutMapping("/{id}")
     public ResponseEntity<?> updateZone(@PathVariable String id, @RequestBody Zone zone) {
         try {
@@ -47,7 +48,7 @@ public class ZoneController {
         }
     }
 
-    // DELETE /api/zones/{id}: Remove zone [cite: 129]
+    // DELETE /api/zones/{id}: Remove zone
     @DeleteMapping("/{id}")
     public ResponseEntity<?> deleteZone(@PathVariable String id) {
         zoneService.deleteZone(id);
