@@ -1,9 +1,16 @@
 package com.ijse.zoneservice.entity;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 
 @Entity
 @Table(name = "zones")
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class Zone {
 
     @Id
@@ -13,7 +20,5 @@ public class Zone {
     private String name;
     private Double minTemp;
     private Double maxTemp;
-
     private String deviceId;
-
 }

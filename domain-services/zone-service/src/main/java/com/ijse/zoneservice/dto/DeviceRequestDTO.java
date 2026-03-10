@@ -1,7 +1,9 @@
 package com.ijse.zoneservice.dto;
 
-public class DeviceRequest {
+import lombok.Data;
+
+@Data
+public class DeviceRequestDTO {
     private String name;
     private String zoneId;
-
 }
