@@ -13,6 +13,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "DilmiSandamini"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/DilmiSandamini/agms-system.git",
@@ -54,10 +60,17 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.ConfigServerApplication">
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="config-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ijse.configserver.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceRegistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="service-registry" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ijse.serviceregistry.ServiceRegistryApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -79,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1773171050392</updated>
-      <workItem from="1773171051504" duration="2775000" />
+      <workItem from="1773171051504" duration="3239000" />
     </task>
     <servers />
   </component>
