@@ -1,4 +1,4 @@
-package lk.ijse.gdse72.cropinventoryservice;
+package com.ijse.cropinventoryservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
