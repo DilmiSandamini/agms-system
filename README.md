@@ -116,6 +116,11 @@ The system supports **real-time automation using IoT data**.
    - Staff  
 ---
 ## 📷 Screenshots
+
+<img src="https://i.ibb.co/DHMB3DXL/Screenshot-2026-04-10-005222.png" alt="Screenshot 2026 04 10 005222" border="0">
+<img src="https://i.ibb.co/P3Pg7JP/Screenshot-2026-04-10-020853.png" alt="Screenshot 2026 04 10 020853" border="0">
+<img src="https://i.ibb.co/PZf92k4q/Screenshot-2026-04-10-020912.png" alt="Screenshot 2026 04 10 020912" border="0">
+
 ---
 
 ## 🐳 Run with Docker
