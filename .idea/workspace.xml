@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f96cd30b-5a49-4ec3-b97f-71fa3e031522" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/domain-services/automation-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-services/crop-inventory-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-services/sensor-telemetry-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain-services/zone-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infrastructure/api-gateway/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infrastructure/config-server/config-server/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infrastructure/service-registry/Dockerfile" afterDir="false" />
+    <list default="true" id="f96cd30b-5a49-4ec3-b97f-71fa3e031522" name="Changes" comment="feat: Add Dockerfiles for all microservices">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain-services/automation-service/src/main/java/com/ijse/automationservice/dto/TelemetryDataDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain-services/automation-service/src/main/java/com/ijse/automationservice/dto/TelemetryDataDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain-services/automation-service/src/main/java/com/ijse/automationservice/dto/ZoneDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain-services/automation-service/src/main/java/com/ijse/automationservice/dto/ZoneDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain-services/automation-service/src/main/java/com/ijse/automationservice/entity/ActionLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain-services/automation-service/src/main/java/com/ijse/automationservice/entity/ActionLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain-services/crop-inventory-service/src/main/java/com/ijse/cropinventoryservice/entity/Crop.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain-services/crop-inventory-service/src/main/java/com/ijse/cropinventoryservice/entity/Crop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +40,9 @@
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
+  <component name="MavenRunner">
+    <option name="jreName" value="21" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -93,7 +85,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -200,11 +192,24 @@
       <workItem from="1773182321898" duration="6708000" />
       <workItem from="1775751607639" duration="1225000" />
       <workItem from="1775753614697" duration="3018000" />
-      <workItem from="1775756787592" duration="3851000" />
+      <workItem from="1775756787592" duration="4410000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: Add Dockerfiles for all microservices">
+      <option name="closed" value="true" />
+      <created>1775760830350</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1775760830350</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: Add Dockerfiles for all microservices" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Add Dockerfiles for all microservices" />
   </component>
 </project>
