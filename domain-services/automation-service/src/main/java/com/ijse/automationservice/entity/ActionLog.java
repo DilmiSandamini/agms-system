@@ -21,4 +21,12 @@ public class ActionLog {
     private Double recordedTemperature;
     private String actionTaken; // "TURN_FAN_ON" or "TURN_HEATER_ON"
     private LocalDateTime timestamp;
+
+    public void setZoneId(String zoneId) { this.zoneId = zoneId; }
+
+    public void setRecordedTemperature(double recordedTemperature) { this.recordedTemperature = recordedTemperature; }
+
+    public void setActionTaken(String actionTaken) { this.actionTaken = actionTaken; }
+
+    public void setTimestamp(java.time.LocalDateTime timestamp) { this.timestamp = timestamp; }
 }

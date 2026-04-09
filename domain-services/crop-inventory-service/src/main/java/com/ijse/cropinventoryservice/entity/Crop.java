@@ -24,4 +24,22 @@ public class Crop {
 
     @Enumerated(EnumType.STRING)
     private CropState state;
+
+    public String getId() { return this.id; }
+    public void setId(String id) { this.id = id; }
+
+    public String getName() { return this.name; }
+    public void setName(String name) { this.name = name; }
+
+    public String getCropType() { return this.cropType; }
+    public void setCropType(String cropType) { this.cropType = cropType; }
+
+    public String getZoneId() { return this.zoneId; }
+    public void setZoneId(String zoneId) { this.zoneId = zoneId; }
+
+    public java.time.LocalDate getPlantDate() { return this.plantDate; }
+    public void setPlantDate(java.time.LocalDate plantDate) { this.plantDate = plantDate; }
+
+    public CropState getState() { return this.state; }
+    public void setState(CropState state) { this.state = state; }
 }
